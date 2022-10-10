@@ -17,6 +17,10 @@
     min-height: 56px;
 }
 
+.h-90 {
+   height: 90px;
+}
+
 .container{
     max-width: 1200px;
     margin: auto;
@@ -31,11 +35,12 @@
 [class*="col-"]{
     border: 1px solid white;
     background-color: rgba(0,108,250,255);
-    flex: 0 0 auto;
     text-align: center;
     padding: 1rem;
     color: white;
 }
+
+
 
 /* columns */
 .col{
@@ -92,5 +97,8 @@
 .col-offset-1{ margin-left: calc(100% / 12 * 1); }
 
 .back-green{
-    background-color: green;
+    background-color: firebrick;
 }
+
+.col-offset-r6{ margin-right: calc(100% / 12 * 6); }
+.col-offset-r3{ margin-right: calc(100% / 12 * 3); }
